@@ -1,0 +1,89 @@
+  .seccion-sobre-mi {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px;
+    border-radius: 30px;
+    margin-top: 4%;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: 80% 20%; 
+}
+
+.nuestro-proyecto {
+    width: 100%;
+}
+
+.nuestro-proyecto h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.perfil-daniela {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; 
+}
+
+.titulo{
+  color: aliceblue;
+  font-size: 55px;
+  font-family: 'Amasis';
+  letter-spacing: 0.5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.lorem {
+    width: 100%;
+    font-family: 'Aptos';
+}
+
+.lorem p {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 40px;
+
+}
+
+.creadora-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.creadora-info h2 {
+    font-size: 1.5em;
+    font-family: 'Amasis';
+    font-style: italic;
+}
+
+.creadora-info h3 {
+  font-size: 1.5em;
+  font-family: 'Amasis';
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.creadora-info img {
+    width: 100%; 
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    margin-right: 20px;
+
+}
+
+.lorem a{
+    color: beige;
+    font-weight: bold;
+    font-family: 'Amasis';
+    font-size: larger;
+}

@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('img/galaxia.jpg') center/cover fixed;
+}
+
+.seccion-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px;
+    border-radius: 30px;
+}
+
+.planetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.planeta h2{
+    font-family: 'Amasis';
+    letter-spacing: 0.25em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.planeta p{
+    font-family: 'Aptos';
+    font-size: 13px;
+}
+
+.planeta {
+    text-align: center;
+}
+
+.planeta img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.planeta-saturno {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.planeta h2, .planeta p {
+    color: white;
+    text-align: center;
+}
+
+.destinos a{
+    color: beige;
+    text-align: center;
+}
+.video-derecha {
+    position: relative;
+    overflow: hidden;
+    padding-top: 60%; 
+}
+
+.video-derecha iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
